@@ -118,9 +118,10 @@ for o in sorted(operations):
         print(f' {o}) {operations[o][0]}')
 
 operation=input("Select an Operation (index): ")
+valid_op=str(list(range(1, len(operations),1)))
 
 # Asking for an operation number until we have a valid one
-while (int(operation)>len(operations)):
+while ((operation in valid_op)==False):
     print("Invalid input")
     operation=input("Select an Operation (index): ")
     
