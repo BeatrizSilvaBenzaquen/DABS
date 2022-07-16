@@ -2,7 +2,7 @@
 
 FROM python:3
 
-LABEL maintainer="beatrizsilvabenzaquen.com"
+LABEL maintainer="beatrizsilvabenzaquen@gmail.com"
 
 COPY requirements.txt ./
 
